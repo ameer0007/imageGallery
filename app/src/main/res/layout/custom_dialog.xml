@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image_Home"
+        android:gravity="center"
+        android:id="@+id/tex_img_name"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/img1"
+        android:layout_below="@id/tex_img_name"
+        android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/btn_full"
+        android:text="Full_View"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/btn_close"
+        android:text="Close"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="200dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"/>
+
+
+
+
+
+</RelativeLayout>
